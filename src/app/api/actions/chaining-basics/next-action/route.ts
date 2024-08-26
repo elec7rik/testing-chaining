@@ -120,7 +120,7 @@ import {
       const payload: CompletedAction = {
         type: "completed",
         title: "Chaining was successful!",
-        icon: new URL("/solana_devs.jpg", new URL(req.url).origin).toString(),
+        icon: new URL("/solana_logo.png", new URL(req.url).origin).toString(),
         label: "Complete!",
         description:
           `You have now completed an action chain! ` +

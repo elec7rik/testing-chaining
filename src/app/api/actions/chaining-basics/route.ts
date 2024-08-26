@@ -26,7 +26,7 @@ import {
   export const GET = async (req: Request) => {
     const payload: ActionGetResponse = {
       title: "Simple Action Chaining Example",
-      icon: new URL("/solana_devs.jpg", new URL(req.url).origin).toString(),
+      icon: new URL("/solana_logo.png", new URL(req.url).origin).toString(),
       description: "Perform a simple action chain",
       label: "Send Memo",
       links: {
